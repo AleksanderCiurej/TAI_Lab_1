@@ -1,6 +1,15 @@
 body{
-    background-color: pink;
+    background-color: lightblue;
 }
-li{
+li {
     display: inline;
+}
+fieldset {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 1px solid black;
 }

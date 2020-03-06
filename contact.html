@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aleksander Ciurej Contact Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="col-4" id="navigation">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="quiz.html">Quiz</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Kontakt</a>
+        </li>
+    </ul>
+    </div>
+        <form>
+            <fieldset>
+                <legend>Uzupełnij dane:</legend>
+            <div class="form-group">
+                <label for="imie">Imię:</label><br>
+                <input type="text" class="form-control" name="imie" placeholder="Podaj imię" id="imie"><br>
+            </div>
+            <div class="form-group">
+                <label for="nazwisko">Nazwisko:</label><br>
+                <input type="text" class="form-control" id="nazwisko" name="nazwisko" placeholder="Podaj nazwisko"><br>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label>Płeć</label><br>
+                <input type="radio" class="plec" name="plec" checked="checked">
+                <label>Mężczyzna</label>
+                <input type="radio" class="plec" name="plec">
+                <label>Kobieta</label>
+            </div>
+            <div class="form-group">
+                <label for="opis">Opis</label>
+                <textarea id="opis" class="form-control" rows="4" cols="50" placeholder="Napisz coś o sobie"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="wiek">Wiek</label>
+                <input type="number" class="form-control" id="wiek" min="1" max="120" value="18">
+            </div>
+            <div class="form-group">
+                <label for="stan_cywilny">Stan cywilny:</label>
+                <select class="form-control" id="stan_cywilny">
+                    <option>Panna/Kawaler</option>
+                    <option>Zamężna/Żonaty</option>
+                    <option>Wdowa/Wdowiec</option>
+                </select>
+            </div>
+            <button type="clear" class="btn btn-primary">Wyczyść</button>
+            <button type="submit" class="btn btn-primary">Wyślij</button>
+            </fieldset>
+        </form>
+</body>
+</html>
