@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #2D3047;
 }
@@ -60,3 +64,11 @@ div.container-fluid{
     color:white;
     padding: 5px 0px;
 }
+.scroll {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
