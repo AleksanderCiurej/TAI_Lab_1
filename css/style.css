@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    background-color: #2D3047;
+    background-color: #84a9ac;
 }
 li {
     display: inline;
@@ -18,8 +18,10 @@ fieldset {
     padding-right: 0.75em;
     border: 1px solid black;
 }
+.navbar{
+    background-color: #204051;
+}
 #menu{
-    background-color: #2D3047;
     color: black;
 }
 #menu a{
@@ -28,7 +30,7 @@ fieldset {
 }
 #right{
     font-size: 30px;
-    background-color: #C0B8C6;
+    background-color: #84a9ac;
     text-align: right;
 }
 #left{
@@ -39,7 +41,7 @@ div.container-fluid{
 }
 .contactMenu{
     margin-left:6px;
-    color: white;
+    color: black;
 }
 .contactMenu::after{
     content: '';
@@ -60,7 +62,7 @@ div.container-fluid{
 }
 .stopka{
     text-align: center;
-    background-color: black;
+    background-color: #204051;
     color:white;
     padding: 5px 0px;
 }
@@ -69,6 +71,30 @@ div.container-fluid{
     position: fixed;
     bottom: 30px;
     right: 30px;
+}
+#mainQuiz{
+    color:black;
+}
+.container {
+    margin-top: 50px;
+    color: white;
+}
+
+.list-group-item {
+    cursor: pointer;
+    color: black;
+}
+
+.correct {
+    background-color: #289a27;
+}
+
+.incorrect {
+    background-color: #c41a21;
+}
+
+.buttons {
+    padding: 10px 10px 10px 0;
 }
 
 
